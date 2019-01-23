@@ -14,7 +14,7 @@ instance = dht11.DHT11(pin=14)
 while True:
     result = instance.read() # センサーからデータを取得
     if result.is_valid():    #　センサーからデータが取得できたかを判定
-    　　#コンソール出力
+    #コンソール出力
         print("Last valid input: " + str(datetime.datetime.now()))
         print("Temperature: %d C" % result.temperature)
         print("Humidity: %d %%" % result.humidity)
