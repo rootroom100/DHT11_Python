@@ -44,4 +44,5 @@ while True:
         print("Temperature: %d C" % result.temperature)
         print("Humidity: %d %%" % result.humidity)
 
-    time.sleep(CHECK_SPAN)
+    #time.sleep(CHECK_SPAN)
+    time.sleep(1)
