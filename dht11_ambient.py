@@ -1,9 +1,12 @@
+#! /usr/bin/env pyhton3
+
+import ambient
+import os
+
 import RPi.GPIO as GPIO
 import dht11 #`センサーライブラリ読み込み`
 import time
 import datetime
-import ambient
-import os
 
 
 # initialize GPIO
