@@ -40,7 +40,7 @@ while True:
                 }
             )
 
-        latest_update = data.tick_last_update
+        latest_update = result.tick_last_update
 
         #コンソール出力
         print("Last valid input: " + str(datetime.datetime.now()))
