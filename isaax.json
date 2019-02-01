@@ -6,6 +6,6 @@
   "license": "",
   "language":"python",
   "scripts": {
-	"start": "python3 -u dht11_ambient.py"
+	"start": "python dht11_ambient.py"
   }
 }
