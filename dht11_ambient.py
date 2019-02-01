@@ -12,7 +12,7 @@ import datetime
 # initialize GPIO
 GPIO.setwarnings(False) # ワーニング非表示
 GPIO.setmode(GPIO.BCM) # GPIOの数字で指定
-GPIO.cleanup()          # GPIOの設定を初期化
+GPIO.cleanup() # GPIOの設定を初期化
 
 # read data using pin 14　データ読み込みのPIN番号を設定する
 instance = dht11.DHT11(pin=14)
