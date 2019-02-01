@@ -41,9 +41,7 @@ while True:
                 'd2': result.humidity,
                 }
             )
-
         #latest_update = result.tick_last_update
-
     #コンソール出力
     print("Last valid input: " + str(datetime.datetime.now()))
     print("Temperature: %d C" % result.temperature)
