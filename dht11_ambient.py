@@ -1,4 +1,5 @@
 #! /usr/bin/env pyhton3
+# coding: UTF-8
 
 import ambient
 import os
