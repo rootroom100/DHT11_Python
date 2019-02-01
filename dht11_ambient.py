@@ -44,10 +44,10 @@ while True:
 
         #latest_update = result.tick_last_update
 
-        #コンソール出力
-        print("Last valid input: " + str(datetime.datetime.now()))
-        print("Temperature: %d C" % result.temperature)
-        print("Humidity: %d %%" % result.humidity)
+    #コンソール出力
+    print("Last valid input: " + str(datetime.datetime.now()))
+    print("Temperature: %d C" % result.temperature)
+    print("Humidity: %d %%" % result.humidity)
 
     #time.sleep(CHECK_SPAN)
     time.sleep(1)
