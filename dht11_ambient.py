@@ -4,7 +4,7 @@ import ambient
 import os
 
 import RPi.GPIO as GPIO
-import dht11 #`センサーライブラリ読み込み`
+import dht11
 import time
 import datetime
 
