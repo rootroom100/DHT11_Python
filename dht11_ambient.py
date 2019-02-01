@@ -35,8 +35,9 @@ while True:
         if result.tick_last_update > latest_update:
             # データをAmbientに送信する
             am.send({
-                'created': result.tick_last_update.strftime('%Y-%m-%d %H:%M:%S'),
-                'd1': result.val_temp,
+                'created': datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+                'd1': result.temperature,
+                'd2': result.humidity,
                 }
             )
 
